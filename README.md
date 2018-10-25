@@ -3,8 +3,8 @@ Installation:
 Clone this repository
 
 Create a new virtualenv: mkvirtualenv django_exo.
-install django: pip install django==1.8.
-install selenium: pip install selenium.
+Install django: pip install django==1.8.
+Install selenium: pip install selenium.
 
 To run the application : 
   1.python manage.py migrate.
