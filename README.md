@@ -1,4 +1,3 @@
-https://github.com/gharibOumayma/Django_Exercice.git
 Installation:
 
 Clone this repository
