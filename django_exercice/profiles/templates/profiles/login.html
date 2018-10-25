@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+    <div class="row form_style" style="text-align:center;">
+        <div class="col-md-4 col-md-offset-4">
+            <div class="login-panel panel">
+                <div class="panel-heading">
+                        <h2 class="panel-title">Login</h2>
+                </div>
+                <div class="panel-body">
+                   <form id="login_form" method="post" action="{% url 'django.contrib.auth.views.login' %}">
+                       {% csrf_token %}
+                       <div class="form-group">
+                         {{ form.username }}
+                       </div>
+                       <div class="form-group">
+                         {{ form.password }}
+                       </div>
+                       <div class="form-group">
+                       <button id="login" class="btn btn-success btn-sm" type="submit">Se connecter</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+{% endblock %}
